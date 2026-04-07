@@ -4,6 +4,11 @@ Cascading dropdowns
 
 ### Quickstart:
 
+```bash
+$ git clone https://github.com/regencode/code-challenge-1.git
+$ cd code-challenge-1
+$ npm next dev
+```
 
 ### Screenshots
 
@@ -14,4 +19,3 @@ Cascading dropdowns
 ![Sub-Category Selected](screenshots/3.png)
 
 ![Brand Selected](screenshots/4.png)
-# code-challenge-1
