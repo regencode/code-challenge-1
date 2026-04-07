@@ -43,9 +43,6 @@ export default function ClientView({ productList, categoryList, subCategoryList,
         <section className="mt-6">
           <ProductGrid 
             products={productList}
-            category={searchParams.get("category") || ""}
-            subcategory={searchParams.get("subcategory") || ""}
-            brand={searchParams.get("brand") || ""}
           />
         </section>
       </main>
