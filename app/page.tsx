@@ -14,7 +14,7 @@ function filterProducts(category? : string, subcategory? : string, brand? : stri
     if(integerID(subcategory)%2 == 1) result = result.slice(0, result.length/2);
     else                         result = result.slice(result.length/2, result.length);
     if(!brand) return result;
-    return result.filter((p) => integerID(p.brandId) == integerID(brand));
+    return result.filter((p) => p.brandId == brand);
 }
 
 export default async function Home({ searchParams }: any) {
