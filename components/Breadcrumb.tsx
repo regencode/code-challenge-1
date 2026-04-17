@@ -10,7 +10,7 @@ export default function Breadcrumb({ category, subcategory, brand }: BreadcrumbP
   return (
     <nav className="product-breadcrumb" aria-label="breadcrumb">
       <ol className="flex items-center space-x-2 text-sm">
-        <li><a href="/" className="text-blue-600 hover:underline">Home</a></li>
+        <li><p>Home</p></li>
         {category && (
           <li className="text-gray-500">/</li>
         )}
